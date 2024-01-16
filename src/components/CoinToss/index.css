@@ -1,0 +1,47 @@
+.bg {
+  background-color: #e2a139;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #a35200;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+.para {
+  font-family: 'Roboto';
+  margin-top: 0;
+}
+.btn {
+  border: none;
+  background-color: #f9d423;
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 10px;
+  outline: none;
+  cursor: pointer;
+  color: #a35200;
+}
+.result-container {
+  display: flex;
+  margin-top: 20px;
+}
+.result {
+  font-family: 'Roboto';
+  margin-right: 20px;
+}
